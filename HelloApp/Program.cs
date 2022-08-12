@@ -13,7 +13,7 @@ namespace HelloApp
             Calc calc = new Calc();
             Console.WriteLine($"Sum = {calc.Add(70,80)}");
             Console.WriteLine($"Sum = {calc.Multiply(4, 5)}");
-            Console.WriteLine($"Sum = {calc.Subtract(20, 5)}");
+            Console.WriteLine($"Subtract = {calc.Subtract(20, 5)}");
             Console.ReadLine();
         }
     }
